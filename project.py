@@ -8,3 +8,4 @@ print(df_anime)
 
 select_serial = int(input('Введите сколько серий предпочитаете'))
 print(df_anime[df_anime.length_in_serial<=select_serial][['anime_name','type']])
+# Hi!
